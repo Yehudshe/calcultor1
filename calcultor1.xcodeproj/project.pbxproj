@@ -14,6 +14,7 @@
 		7471C7082180C3E4008DE559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7471C7062180C3E4008DE559 /* LaunchScreen.storyboard */; };
 		7471C7132180C3E4008DE559 /* calcultor1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471C7122180C3E4008DE559 /* calcultor1Tests.swift */; };
 		7471C71E2180C3E4008DE559 /* calcultor1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471C71D2180C3E4008DE559 /* calcultor1UITests.swift */; };
+		7471C72C2180C91F008DE559 /* CalcultorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471C72B2180C91F008DE559 /* CalcultorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7471C7192180C3E4008DE559 /* calcultor1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcultor1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7471C71D2180C3E4008DE559 /* calcultor1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcultor1UITests.swift; sourceTree = "<group>"; };
 		7471C71F2180C3E4008DE559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7471C72B2180C91F008DE559 /* CalcultorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcultorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7471C6FD2180C3E3008DE559 /* AppDelegate.swift */,
 				7471C6FF2180C3E3008DE559 /* ViewController.swift */,
 				7471C7012180C3E3008DE559 /* Main.storyboard */,
+				7471C72B2180C91F008DE559 /* CalcultorBrain.swift */,
 				7471C7042180C3E4008DE559 /* Assets.xcassets */,
 				7471C7062180C3E4008DE559 /* LaunchScreen.storyboard */,
 				7471C7092180C3E4008DE559 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				7471C7002180C3E3008DE559 /* ViewController.swift in Sources */,
 				7471C6FE2180C3E3008DE559 /* AppDelegate.swift in Sources */,
+				7471C72C2180C91F008DE559 /* CalcultorBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WTJQPTZHP9;
 				INFOPLIST_FILE = calcultor1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WTJQPTZHP9;
 				INFOPLIST_FILE = calcultor1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
