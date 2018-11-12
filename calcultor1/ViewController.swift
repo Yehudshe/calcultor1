@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     
     }
     
+    var change:Int = 0
     
     
     var displayValue:Double{
