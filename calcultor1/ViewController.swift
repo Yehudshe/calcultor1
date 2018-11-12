@@ -36,7 +36,11 @@ class ViewController: UIViewController {
     }
     
     var change:Int = 0
+    var change2:Int = 1
     
+    func thisIsAllSoAChang(){
+        
+    }
     
     var displayValue:Double{
         get{
