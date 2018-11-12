@@ -49,6 +49,8 @@ class ViewController: UIViewController {
     
     var brain = CalcultorBrain()
     
+    var c:String = " "
+    
 
     @IBAction func performOpertion(_ sender: UIButton) {
         userIsInTheMiddleOfTypeing = false
@@ -60,6 +62,9 @@ class ViewController: UIViewController {
             if let result = brain.result {
                 displayValue = result
                 print("this is a print!")
+                print("this tow, this three,")
+                
+                
             }
         }
         
