@@ -40,6 +40,7 @@ class ViewController: UIViewController {
     
     func thisIsAllSoAChang(){
         
+        
     }
     
     var displayValue:Double{
@@ -50,6 +51,8 @@ class ViewController: UIViewController {
             display.text! = "\(newValue)"
         }
     }
+    
+    var b = 1
     
     
     var brain = CalcultorBrain()
